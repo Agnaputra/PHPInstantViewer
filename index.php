@@ -13,7 +13,7 @@ use piv\App;
 $mysqlHost = 'localhost';
 $user = 'root';
 $password = '';
-$dbName = 'toko_barokah';
+$dbName = 'toko_barokah_app';
 $tableName = 'transaksi';
 
 $db = new Db($mysqlHost, $user, $password, $dbName);
